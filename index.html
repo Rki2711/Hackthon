@@ -14,7 +14,7 @@
         <div class="header-container">
             <!-- Logo Section -->
             <div class="logo">
-                <a href="/index.html"><img src="Logo.PNG" alt="Logo"></a>
+                <a href="#"><img src="Logo.PNG" alt="Logo"></a>
             </div>
 
             <!-- Navigation Links -->
@@ -22,7 +22,8 @@
                 <a href="index.html" class="home" style="color: #119238; text-decoration: none;"onmouseover="this.style.color='white';" 
                 onmouseout="this.style.color='green';">Home</a>
 
-                <a href="#">Request Clean</a>
+                <!--Alert Message-->
+                <a href="#" onClick="alert('Please Login First')">Request Clean</a>
                 <a href="#">Services</a>
                 <a href="#">About Us</a>
                 <a href="#">Contact Us</a>
@@ -41,14 +42,22 @@
     <div class="welcome-text">
         <h2>Welcome To Cleanit</h2>
         <p>We are dedicated to making the world a cleaner and greener place through sustainable waste management solutions.</p>
-        <button class="btn">Request </button>
-        <button class="btn">Track </button>
+        <button class="btn" onclick="myFunction()">Request </button>
+        <button class="btn" onclick="myFunction()">Track </button>
+        <!--Alert Message-->
+        <script>
+            function myFunction() {
+              alert("Please Login first");
+            }
+            </script>
+
     </div>
     <img src="images/15043.png" alt="Cleanit">
 
 </section>
 
-    <!------------------------------------------------------Service Section----------------------------------------------------->
+
+    <!--------------------------------------------------Service Section Start----------------------------------------------------->
   
     <section class="services">
         <h2>Our Services</h2>
@@ -75,7 +84,7 @@
             </div>
         </div>
     </section>
-    <!------------------------------------------------------Service Section----------------------------------------------------->
+    <!-----------------------------------------------------Service Section End----------------------------------------------------->
 
     <!----------------------------------------------------------Footer Section-------------------------------------------------- -->
 
@@ -133,13 +142,7 @@
 
                 <div class="copyright">
                     <p><center>Vgu Code Red 4.0 © Clean it Team incoders all rights reserved </center></p>
-                   <!---
-                    <pre style="font-family:Arial, Helvetica, sans-serif; font: size 28px;text-align: center;">
-                        
-                    Vgu Code Red 4.0 &copy; Clean it Team incoders all rights reserved
-                    </pre>
-                </div>
-            -->
- 
+              
+ <script src="index.js"></script>
 </body>
 </html>
