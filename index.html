@@ -6,62 +6,40 @@
     <title>Cleanit</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-   
 </head>
 <body>
-   
     <header class="header">
         <div class="header-container">
             <!-- Logo Section -->
             <div class="logo">
                 <a href="#"><img src="Logo.PNG" alt="Logo"></a>
             </div>
-
             <!-- Navigation Links -->
             <nav class="nav-links">
-                <a href="index.html" class="home" style="color: #119238; text-decoration: none;"onmouseover="this.style.color='white';" 
-                onmouseout="this.style.color='green';"><i class="fa fa-home"></i> Home</a>
-
-                <!--Alert Message-->
+                <a href="index.html" class="home"><i class="fa fa-home"></i> Home</a>
                 <a href="#" onClick="alert('Please Login First')">Request Clean</a>
-                <a href="#" class="link" style="">Services</a>
+                <a href="#" class="link">Services</a>
                 <a href="#">About Us</a>
-                <a href="#">Featurs</a>
-                
-                
-
-
-
+                <a href="#">Features</a>
+            </nav>
             <!-- Profile/Login Section -->
             <div class="profile-section">
-                <a href="Postlogin/index.html" class="login-btn">Login <i class="fas fa-sign-in-alt"></i></i></a>
+                <a href="Postlogin/index.html" class="login-btn">Login <i class="fas fa-sign-in-alt"></i></a>
                 <a href="#" class="signup-btn">Signup</a>
             </div>
         </div>
     </header>
- <!-------------------------------------------------------Boady Section---------------------------------------------------------->
- <!-- Welcome Section -->
- <section class="welcome-section">
-    <div class="welcome-text">
-        <h2>Welcome To Cleanit</h2>
-        <p>We are dedicated to making the world a cleaner and greener place through sustainable waste management solutions.</p>
-        <button class="btn" onclick="myFunction()">Request</button>
-        <button class="btn" onclick="myFunction()">Track </button>
-        <!--Alert Message-->
-        <script>
-            function myFunction() {
-              alert("Please Login first");
-            }
-            </script>
-
-    </div>
-    <img src="images/15043.png" alt="Cleanit">
-
-</section>
-
-
-    <!--------------------------------------------------Service Section Start----------------------------------------------------->
-  
+    <!-- Welcome Section -->
+    <section class="welcome-section">
+        <div class="welcome-text">
+            <h2>Welcome To Cleanit</h2>
+            <p>We are dedicated to making the world a cleaner and greener place through sustainable waste management solutions.</p>
+            <button class="btn" onclick="alert('Please Login first')">Request</button>
+            <button class="btn" onclick="alert('Please Login first')">Track</button>
+        </div>
+        <img src="images/15043.png" alt="Cleanit">
+    </section>
+    <!-- Service Section Start -->
     <section class="services">
         <h2>Our Services</h2>
         <div class="row">
@@ -71,26 +49,21 @@
                 <p>We offer eco-friendly, reliable collection of household waste, recyclables, and yard waste.</p>
                 <button class="btn">See more</button>
             </div>
-    
             <div class="box">
                 <img src="images/service2.png" alt="Commercial Waste Disposal">
                 <h3>Commercial Waste Disposal</h3>
                 <p>Customized waste disposal for businesses, ensuring safe and compliant handling of all types of waste.</p>
                 <button class="btn">See more</button>
             </div>
-    
             <div class="box">
                 <img src="images/service3.jpg" alt="Recycling Programs">
                 <h3>Waste Recycling Programs</h3>
-                <p>Sustainability is at the heart of our waste management philosophy.Programs to reduce landfill waste and recycle materials, including e-waste, with eco-friendly practices.</p>
+                <p>Sustainability is at the heart of our waste management philosophy. Programs to reduce landfill waste and recycle materials, including e-waste, with eco-friendly practices.</p>
                 <button class="btn">See more</button>
             </div>
         </div>
     </section>
-    <!-----------------------------------------------------Service Section End----------------------------------------------------->
-
-    <!----------------------------------------------------------Footer Section-------------------------------------------------- -->
-
+    <!-- Footer Section -->
     <footer class="footer">
         <div class="container">
             <div class="footer_bg">
@@ -99,53 +72,45 @@
             </div>
             <div class="row">
                 <div class="footer-col">
-
-  <!--Footer logo-->
-
+                    <!-- Footer logo -->
                     <div class="logo">
-                        <h4>About US </h4>
+                        <h4>About Us</h4>
                         <a href="#"><img src="Logo.PNG" alt="Logo"></a>
                     </div>
                     <br>
-                    <p>This is a Code Red 4.0 Hackthon project which is devlop by team incoders in vgu campus jaipur.</p>
+                    <p>This is a Code Red 4.0 Hackthon project developed by team Incoders at VGU Campus, Jaipur.</p>
                 </div>
-                
                 <div class="footer-col">
                     <h4>Quick Links</h4>
                     <ul>
                         <li><a href="#">&#187; Home</a></li>
-                        <li><a href="#">&#187; Featurs</a></li>
+                        <li><a href="#">&#187; Features</a></li>
                         <li><a href="#">&#187; Request</a></li>
                         <li><a href="#">&#187; Track</a></li>
                         <li><a href="#">&#187; FAQ</a></li>
                     </ul>
                 </div>
-               
                 <div class="footer-col">
                     <h4>Contact Us</h4>
+                    <div class="contact-address">
+                        <pre><i class="fa fa-map-marker-alt"></i> <b>Address:</b> Sector 36, NRI Colony Rd, VIT Campus, Jagatpura, Jaipur, Rajasthan 303012</pre>
+                        <pre><i class="fa fa-phone-alt"></i> <b>Phone:</b> +91 1800 313 1415</pre>
+                        <pre><i class="fa fa-envelope"></i> <b>Email:</b> info@cleanit.com</pre>
+                    </div>
                     <div class="social-links">
-                        <div class="contact-address">
-                            <pre class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>  <b>Address:</b> Sector 36, NRI Colony Rd, VIT Campus 
-                      Jagatpura, Jaipur, Rajasthan 303012</pre>
-                            <pre class="mb-2"><i class="fa fa-phone-alt me-3"></i>  <b>Phone:</b> +91 1800 313 1415</pre>
-                            <pre class="mb-2"><i class="fa fa-envelope me-3"></i>  <b>Email:</b>  info@cleanit.com</pre>
-                        </div>
                         <a href="https://www.facebook.com/" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
                         <a href="https://x.com/?lang=en" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
                         <a href="https://www.instagram.com/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
                         <a href="https://www.linkedin.com/in/rahulkumarraivgu/" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
-                
             </div>
         </div>
     </footer>
-
-    <!--Copyright Elemrnt -->
-
-                <div class="copyright">
-                    <p><center>Vgu Code Red 4.0 © Clean it Team incoders all rights reserved </center></p>
-              
- <script src="index.js"></script>
+    <!-- Copyright Element -->
+    <div class="copyright">
+        <p><center>VGU Code Red 4.0 © Cleanit Team Incoders all rights reserved</center></p>
+    </div>
+    <script src="index.js"></script>
 </body>
 </html>
